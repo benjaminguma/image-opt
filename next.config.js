@@ -1,6 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-}
+	reactStrictMode: true,
+	images: {
+		domains: ['res.cloudinary.com', 'images.unsplash.com'],
+		formats: ['image/avif', 'image/webp'],
+		// loader: 'cloudinary',
+		// path: 'https://res.cloudinary.com/dqydioa16',
+	},
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

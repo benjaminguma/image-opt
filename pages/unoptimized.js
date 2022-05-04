@@ -7,6 +7,7 @@ export default function Home() {
 			height={500}
 			width={800}
 			alt={'some sample file'}
+			unoptimized={true}
 			layout='intrinsic'
 		/>
 	);

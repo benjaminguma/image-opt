@@ -1,5 +1,4 @@
 import Image from 'next/image';
-
 export default function Home() {
 	return (
 		<Image
@@ -7,7 +6,8 @@ export default function Home() {
 			height={500}
 			width={800}
 			alt={'some sample file'}
-			layout='intrinsic'
+			layout='responsive'
+			sizes='(max-width:3000px) 10vw'
 		/>
 	);
 }
